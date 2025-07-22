@@ -16,6 +16,8 @@
 
 
 ## 📰 News
+* **[2025.7.1]** The Uni-Retrieval's expanded version Uni-RAG has been released at [link](https://arxiv.org/abs/2507.03868)!
+* **[2025.5.15]** Our new retrieval model Uni-Retrieval has been accepted by ACL 2025!
 * **[2024.7.24]** Our Diverse-Style Retrieval Dataset is released at [this](https://huggingface.co/datasets/Curise/FreeStyleRet-DSR).
 * **[2024.7.24]** Add a new retreival task evaluator tool with R1 and R5.
 * **[2024.7.1]** Our FreestyleRet has been accepted by ECCV 2024!
@@ -82,12 +84,30 @@ The training & validating instruction is in [train.py](train.py) and [test.py](t
 If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:.
 
 ```BibTeX
-@misc{li2023freestyleret,
-      title={FreestyleRet: Retrieving Images from Style-Diversified Queries}, 
-      author={Hao Li and Curise Jia and Peng Jin and Zesen Cheng and Kehan Li and Jialu Sui and Chang Liu and Li Yuan},
-      year={2023},
-      eprint={2312.02428},
+@inproceedings{li2024freestyleret,
+  title={Freestyleret: retrieving images from style-diversified queries},
+  author={Li, Hao and Jia, Yanhao and Jin, Peng and Cheng, Zesen and Li, Kehan and Sui, Jialu and Liu, Chang and Yuan, Li},
+  booktitle={European Conference on Computer Vision},
+  pages={258--274},
+  year={2024},
+  organization={Springer}
+}
+
+@misc{jia2025uniretrievalmultistyleretrievalframework,
+      title={Uni-Retrieval: A Multi-Style Retrieval Framework for STEM's Education}, 
+      author={Yanhao Jia and Xinyi Wu and Hao Li and Qinglin Zhang and Yuxiao Hu and Shuai Zhao and Wenqi Fan},
+      year={2025},
+      eprint={2502.05863},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={cs.IR},
+}
+
+@misc{wu2025queryexplanationuniragmultimodal,
+      title={From Query to Explanation: Uni-RAG for Multi-Modal Retrieval-Augmented Learning in STEM}, 
+      author={Xinyi Wu and Yanhao Jia and Luwei Xiao and Shuai Zhao and Fengkuang Chiang and Erik Cambria},
+      year={2025},
+      eprint={2507.03868},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
 }
 ```
