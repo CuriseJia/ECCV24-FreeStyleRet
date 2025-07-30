@@ -2,7 +2,7 @@
 <p align="center">
     <img src="img/method.jpg" width="900" style="margin-bottom: 0.2;"/>
 <p>
-<h2 align="center"> <a href="">FreestyleRet: Retrieving Images from Style-Diversified Queries</a></h2>
+<h2 align="center"> <a href="">【ECCV 2024 🔥】 FreestyleRet: Retrieving Images from Style-Diversified Queries</a></h2>
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for latest update.  </h2>
 
 
